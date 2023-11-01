@@ -1,8 +1,10 @@
 package com.example.randomimageapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.randomimageapp.databinding.ActivityMainBinding
+import com.example.randomimageapp.mvc.MvcActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openMvc(){
-
+        startActivity(Intent(this, MvcActivity::class.java))
     }
     fun openMvp(){
 
