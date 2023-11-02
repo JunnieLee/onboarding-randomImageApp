@@ -33,9 +33,11 @@ with MVC, MVP, MVVM, MVI pattern
 ## MVI
 
 ### MVI 패턴 소개
+<img width="1566" alt="image" src="https://github.com/JunnieLee/onboarding-randomImageApp/assets/33515577/a3a32b9f-3cca-457d-8fea-08469a9f6d29">
 
 
 ### MVI 패턴 장단점
+<img width="1556" alt="image" src="https://github.com/JunnieLee/onboarding-randomImageApp/assets/33515577/04ddcf09-b582-495b-a9d4-3d6991de763e">
 
 
 
