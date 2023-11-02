@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.randomimageapp.databinding.ActivityMainBinding
 import com.example.randomimageapp.mvc.MvcActivity
+import com.example.randomimageapp.mvp.MvpActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, MvcActivity::class.java))
     }
     fun openMvp(){
-
+        startActivity(Intent(this, MvpActivity::class.java))
     }
     fun openMvvm(){
 
