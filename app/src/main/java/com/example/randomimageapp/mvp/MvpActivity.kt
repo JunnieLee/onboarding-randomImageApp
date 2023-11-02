@@ -12,7 +12,7 @@ import com.example.randomimageapp.mvp.repository.ImageRepositoryImpl
 class MvpActivity : AppCompatActivity(), MvpContractor.View {
 
     private lateinit var binding:ActivityMvpBinding
-    private lateinit var presenter: MvpContractor.Presentor
+    private lateinit var presenter: MvpContractor.Presenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
